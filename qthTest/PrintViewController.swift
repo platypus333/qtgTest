@@ -8,13 +8,14 @@
 
 import UIKit
 
-class PrintViewController: UIViewController {
-    override func viewDidLoad() {
+open class PrintViewController: UIViewController {
+    
+    override open func viewDidLoad() {
         super .viewDidLoad()
         print("viewdidload")
     }
     
-    func printt() {
+    open func printt() {
         print("shuchu")
     }
 }
